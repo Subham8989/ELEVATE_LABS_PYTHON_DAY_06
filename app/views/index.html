@@ -1,0 +1,33 @@
+{% extends "base/_base.html" %}
+
+{% block title %}Home Page{% endblock title %}
+
+{% block head %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home/index.css') }}" />
+{% endblock head %}
+
+{% block content %}
+  <section class="w-100 vh-100 d-flex align-items-center" style="background-color: #FFFCFB;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-8 text-center text-md-start">
+          <h1 class="display-3 fw-bold mb-3" style="color: #093FB4;">
+            Hi! I am <span style="color: #ED3500;">Subham Sen.</span>
+          </h1>
+          <p class="lead mb-4" style="color: #093FB4;">
+            I am a Web Developer with <strong>8+ Years</strong> of Experience!
+          </p>
+          <a href="#" class="btn btn-lg px-4 py-2" style="background-color: #ED3500; color: #fff; border-radius: 50px; box-shadow: 0 4px 12px rgba(237, 53, 0, 0.3);">
+            Explore Me
+          </a>
+        </div>
+
+        <div class="col-md-4 text-center mt-5 mt-md-0">
+            <img src="{{ url_for('static', filename='images/portfolio_me_crp.jpg') }}"
+                alt="Subham Sen" class="img-fluid rounded" style="max-width: 350px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock content %}

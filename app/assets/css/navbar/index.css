@@ -1,0 +1,27 @@
+.bg-primary-blue {
+  background-color: #093fb4;
+}
+
+.nav-link {
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.navbar .nav-link {
+  position: relative;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffd8d8;
+}
+
+.font-noto {
+  font-family: "noto serif", serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}

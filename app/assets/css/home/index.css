@@ -1,0 +1,11 @@
+section {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #093FB4 !important;
+  color: #fff !important;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
