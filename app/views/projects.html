@@ -1,0 +1,57 @@
+{% extends "base/_base.html" %}
+
+{% block title %}
+  My Projects
+{% endblock title %}
+
+{% block head %}
+  <link href="{{ url_for('static', filename='css/projects/index.css') }}" type="text/css" rel="stylesheet" />
+{% endblock head %}
+
+{% block content %}
+  <section id="projects" class="projects-section py-5">
+    <div class="container">
+      <h2 class="text-primary-blue fw-bold mb-4 text-center">Projects</h2>
+      <div class="row g-4">
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-primary-blue">Portfolio Website</h5>
+              <p class="card-text text-muted">
+                A personal portfolio built with Flask and Bootstrap having a explicit contact section with explicit <code>hCaptcha</code> verification.
+              </p>
+              <a href="https://github.com/Subham8989/ELEVATE_LABS_PYTHON_DAY_06" class="btn btn-orange">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-primary-blue">Blog Platform</h5>
+              <p class="card-text text-muted">
+                Analizing a dataset of 50,000+ sales records using Python and Pandas to extract meaningful business insights, visualize patterns, and make strategic recommendations.
+              </p>
+              <a href="https://github.com/Subham8989/ELEVATE_LABS_PYTHON_DAY_05" class="btn btn-orange">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-primary-blue">User API</h5>
+              <p class="card-text text-muted">
+                A simple RESTful API built with Flask, Flask-RESTful, and MongoEngine for managing user data. It supports basic CRUD operations, uses MongoDB for persistent storage, and enforces input validation.
+              </p>
+              <a href="https://github.com/Subham8989/PRODIGY_BD_02" class="btn btn-orange">View Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+{% endblock content %}

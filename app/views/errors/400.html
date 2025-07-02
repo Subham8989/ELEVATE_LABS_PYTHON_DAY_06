@@ -1,0 +1,15 @@
+{% extends 'base/_base.html' %}
+
+{% block title %}
+  400: Bad Request
+{% endblock title %}
+
+{% block content %}
+  <div class="container mt-5 p-5">
+    <span class="text-danger bg-warning display-4">400: Bad Request</span>
+    <br /><br /><br /><br />
+    <code class="h2">
+      {{ data.error }}
+    </code>
+  </div>
+{% endblock content %}

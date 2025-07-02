@@ -1,0 +1,21 @@
+.projects-section {
+  background-color: #fffcfb;
+}
+
+.project-card img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.btn-orange {
+  background-color: #ed3500;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #093fb4;
+  color: #fff;
+}

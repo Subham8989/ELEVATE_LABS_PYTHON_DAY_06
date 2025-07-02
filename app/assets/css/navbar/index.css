@@ -3,9 +3,16 @@
 }
 
 .nav-link {
-  font-family: "montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  display: inline-block;
+  transition: all 0.5s ease-in-out !important;
   letter-spacing: 1.2px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  letter-spacing: 3px;
 }
 
 .navbar .nav-link {

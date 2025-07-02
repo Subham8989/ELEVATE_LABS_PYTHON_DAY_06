@@ -1,0 +1,15 @@
+{% extends 'base/_base.html' %}
+
+{% block title %}
+  500: Internal Server Error
+{% endblock title %}
+
+{% block content %}
+  <div class="container mt-5 p-5">
+    <span class="text-danger bg-warning display-4">500: Internal Server Error</span>
+    <br /><br /><br /><br />
+    <code class="h2">
+      {{ data.error }}
+    </code>
+  </div>
+{% endblock content %}
